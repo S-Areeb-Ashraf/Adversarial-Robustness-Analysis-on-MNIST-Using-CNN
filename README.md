@@ -1,5 +1,3 @@
-# Question: 1
-
 # Adversarial Robustness on MNIST
 
 This project trains a simple Convolutional Neural Network (CNN) on the **MNIST** handwritten digit dataset and evaluates its robustness against adversarial attacks.
