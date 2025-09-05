@@ -116,6 +116,12 @@ Validation Loss: 1.4784, Accuracy: 98.27%
 ### Preview Outputs/Screenshots
 Screenshots having outputs are in the folder named **output_pics**
 
+![alt text](/output_pics/image_1.PNG)
+
+![alt text](/output_pics/image_4.PNG)
+
+![alt text](/output_pics/image_9.PNG)
+
 ---
 
 ## Author
