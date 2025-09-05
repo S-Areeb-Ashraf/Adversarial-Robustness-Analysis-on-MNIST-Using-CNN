@@ -115,68 +115,6 @@ Validation Loss: 1.4784, Accuracy: 98.27%
 
 ---
 
----
-
-## API Server (`app_fgsm.py`)
-
-The FastAPI server provides endpoints to run **FGSM adversarial attacks** on MNIST digit images.
-
-### Running the Server
-```bash
-python app_fgsm.py
-```
-- Server starts at: `http://localhost:3000`
-- Interactive docs: [http://localhost:3000/docs](http://localhost:3000/docs)
-
-### Endpoints
-
-- **GET /health** → API health check  
-- **GET /info** → metadata + endpoints  
-- **POST /fgsm-attack** → JSON array input (28×28 pixels)  
-- **POST /fgsm-upload** → Upload image file + run attack  
-- **POST /batch-attack** → Run FGSM on multiple samples across epsilons  
-- **GET /example** → Example usage + `curl` requests  
-
-### Simple Model (For Testing)
-- Input: 28×28 flattened → 784
-- Hidden layers: 128 → 64
-- Output: 10 classes
-- Activations: ReLU + LogSoftmax
-
----
-
-## API Client Tester (`test_api.py`)
-
-Python script to **test all API endpoints**.
-
-### Run Tests
-```bash
-python test_api.py
-```
-
-### Features
-- Health check (`/health`)
-- API metadata (`/example`)
-- JSON input FGSM attack
-- File upload FGSM attack (saves adversarial result)
-- Batch attack across multiple epsilon values
-
-### Example Output
-```
-=== Testing Batch Attack ===
-✓ Batch attack successful
-```
-
----
-
-## Future Improvements
-- Try stronger attacks (PGD, CW, DeepFool)
-- Adversarial training for robustness
-- Extend API for multiple datasets (e.g., CIFAR-10)
-- Add visualization dashboard for adversarial examples
-
----
-
 ### Preview Outputs/Screenshots
 Screenshots having outputs are in the folder named **output_pics**
 
@@ -184,4 +122,4 @@ Screenshots having outputs are in the folder named **output_pics**
 
 ## Author
 
-Developed as part of an **Adversarial Machine Learning** experiment on MNIST.  
+Developed as part of an **Adversarial Deep Learning** experiment on MNIST.  
