@@ -121,6 +121,8 @@ Validation Loss: 1.4784, Accuracy: 98.27%
 
 ![alt text](/output_pics/image_4.PNG)
 
+---
+
 ### Accuarcy Drop Between FGSM & Gaussian
 
 ![alt text](/output_pics/image_9.PNG)
