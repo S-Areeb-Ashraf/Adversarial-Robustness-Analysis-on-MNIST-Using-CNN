@@ -114,11 +114,14 @@ Validation Loss: 1.4784, Accuracy: 98.27%
 ---
 
 ### Preview Outputs/Screenshots
-Screenshots having outputs are in the folder named **output_pics**
+
+- Initial Results of Traning and Testing
 
 ![alt text](/output_pics/image_1.PNG)
 
 ![alt text](/output_pics/image_4.PNG)
+
+- Accuarcy Drop Between FGSM & Gaussian
 
 ![alt text](/output_pics/image_9.PNG)
 
